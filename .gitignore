@@ -1,0 +1,24 @@
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Données personnelles (ne pas partager)
+data/veille/fiches/*
+!data/veille/EXEMPLES/
+data/connaissances/*
+!data/connaissances/TEMPLATES/
+
+# Fichiers temporaires
+*.log
+*.tmp
+~$*
+
+# OS
+.DS_Store
+Thumbs.db
