@@ -55,5 +55,5 @@ SecondBrain-Starter-Kit/
 
 ---
 
-## ❓ Besoin d'aide ?
-Si vous êtes bloqué, demandez simplement à votre Assistant : *"Explique-moi comment utiliser le dossier Veille"*. Il a accès à ce mode d'emploi.
+## 📜 Licence
+Ce kit est sous licence **MIT**. Vous êtes libre de l'utiliser, de le modifier et de le partager, à condition de mentionner l'auteur original (Sandrine Boiteau / WEnvision).
