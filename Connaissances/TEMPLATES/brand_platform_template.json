@@ -1,0 +1,23 @@
+{
+    "brand_identity": {
+        "name": "{{Nom_Expert}}",
+        "title": "{{Titre_Actuel}}",
+        "company": "{{Entreprise_Cabinet}}",
+        "mission": "{{Mission_Impact}}",
+        "mantra": "{{Phrase_Signature}}",
+        "philosophy": "{{Approche_Distinctive}}"
+    },
+    "core_expertise": [
+        "{{Expertise_1}}",
+        "{{Expertise_2}}",
+        "{{Expertise_3}}"
+    ],
+    "key_success_metrics": {
+        "metric_1": "{{Succès_Chiffré_1}}",
+        "metric_2": "{{Succès_Chiffré_2}}"
+    },
+    "target_audience": [
+        "{{Public_Cible_1}}",
+        "{{Public_Cible_2}}"
+    ]
+}

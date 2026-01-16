@@ -117,6 +117,6 @@ Lien avec **Human-ON-the-loop** : l'humain reste au centre, l'IA amplifie. Le r�
 
 ## Références
 
-- README : `agents/veilleur/README.md`
-- Config : `agents/veilleur/config.md`
-- Fiches existantes : `data/veille/fiches/`
+- README : `Agents/veilleur/README.md`
+- Config : `Agents/veilleur/config.md`
+- Fiches existantes : `Veille/fiches/`

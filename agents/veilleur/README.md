@@ -30,9 +30,9 @@ https://example.com/article-2
 ```
 
 ### Output
-Fiches Markdown dans `data/veille/fiches/YYYY-MM/` :
+Fiches Markdown dans `Veille/fiches/YYYY-MM/` :
 ```
-data/veille/fiches/2026-01/auteur-sujet-2026-01.md
+Veille/fiches/2026-01/auteur-sujet-2026-01.md
 ```
 
 ---
@@ -78,9 +78,9 @@ Lien avec IA conviviale, Human-ON-the-loop, Context Engineering.*
 
 ## 🔗 Dépendances
 
-- `core/CONFIGURATION_ASSISTANT.md` : Règles de rigueur
-- `core/regles-strictes/` : Ne pas mentir, vérifier sources
-- `data/veille/index.md` : Index des fiches existantes
+- `Configuration/CONFIGURATION_ASSISTANT.md` : Règles de rigueur
+- `Configuration/regles-strictes/` : Ne pas mentir, vérifier sources
+- `Veille/index.md` : Index des fiches existantes
 - `urls-to-process.txt` : File d'attente (racine)
 
 ---
@@ -90,7 +90,7 @@ Lien avec IA conviviale, Human-ON-the-loop, Context Engineering.*
 ### Test Rapide
 1. Ajouter URL test dans `urls-to-process.txt`
 2. Exécuter `/process_veille`
-3. Vérifier fiche dans `data/veille/fiches/2026-01/`
+3. Vérifier fiche dans `Veille/fiches/2026-01/`
 4. Valider format (YAML + 4 sections)
 5. Vérifier temps ≤ 2 min
 
@@ -105,18 +105,18 @@ Lien avec IA conviviale, Human-ON-the-loop, Context Engineering.*
 
 ## 📚 Exemples
 
-Voir `agents/veilleur/examples.md` pour des exemples de fiches générées.
+Voir `Agents/veilleur/examples.md` pour des exemples de fiches générées.
 
 ---
 
 ## 🔧 Configuration Technique
 
-Voir `agents/veilleur/config.md` pour le prompt système complet et les paramètres techniques.
+Voir `Agents/veilleur/config.md` pour le prompt système complet et les paramètres techniques.
 
 ---
 
 ## 📖 Références
 
 - Workflow : `.agent/workflows/process_veille.md`
-- Orchestration : `core/ORCHESTRATION.md`
-- Registre agents : `core/AGENTS_REGISTRY.md`
+- Orchestration : `Configuration/ORCHESTRATION.md`
+- Registre agents : `Configuration/AGENTS_REGISTRY.md`

@@ -30,7 +30,7 @@ tags: [#veille, #{{mots_cles}}]
 auteur: {{auteur}}
 ---
 
-> **IMPORTANT** : Sauvegarder cette fiche dans le dossier `data/veille/fiches/YYYY-MM/` 
+> **IMPORTANT** : Sauvegarder cette fiche dans le dossier `Veille/fiches/YYYY-MM/` 
 > correspondant à la **date de l'article**. 
 > Nom du fichier : `auteur-sujet-YYYY-MM.md`.
 
@@ -69,7 +69,7 @@ Lien avec IA conviviale, Human-ON-the-loop, Context Engineering.*
    - Critique / Perspective
 
 4. **Qualité homogène**
-   - Comparer avec fiches existantes dans `data/veille/fiches/`
+   - Comparer avec fiches existantes dans `Veille/fiches/`
    - Maintenir le même niveau d'analyse
 
 ---
@@ -84,9 +84,9 @@ Lien avec IA conviviale, Human-ON-the-loop, Context Engineering.*
 
 ## Dépendances
 
-- `core/CONFIGURATION_ASSISTANT.md` : Règles de rigueur
-- `core/regles-strictes/` : Ne pas mentir, vérifier sources
-- `data/veille/index.md` : Index des fiches existantes
+- `Configuration/CONFIGURATION_ASSISTANT.md` : Règles de rigueur
+- `Configuration/regles-strictes/` : Ne pas mentir, vérifier sources
+- `Veille/index.md` : Index des fiches existantes
 - `urls-to-process.txt` : File d'attente (racine)
 
 ---
@@ -98,17 +98,17 @@ Lien avec IA conviviale, Human-ON-the-loop, Context Engineering.*
    - Télécharger contenu (`read_url_content`)
    - Analyser avec prompt système
    - Générer fiche Markdown
-   - Sauvegarder dans `data/veille/fiches/YYYY-MM/`
+   - Sauvegarder dans `Veille/fiches/YYYY-MM/`
    - Déplacer URL vers "TRAITÉES"
-3. **Mettre à jour** `data/veille/index.md`
+3. **Mettre à jour** `Veille/index.md`
 
 ---
 
 ## Activation Contextuelle
 
 Quand l'utilisateur dit `/process_veille` :
-- ✅ Charger `core/CONFIGURATION_ASSISTANT.md`
-- ✅ Charger `core/regles-strictes/`
+- ✅ Charger `Configuration/CONFIGURATION_ASSISTANT.md`
+- ✅ Charger `Configuration/regles-strictes/`
 - ✅ Lire `urls-to-process.txt`
 - ✅ Traiter chaque URL
 
@@ -116,7 +116,7 @@ Quand l'utilisateur dit `/process_veille` :
 
 ## Exemples
 
-Voir `agents/veilleur/examples.md` pour des exemples de fiches générées.
+Voir `Agents/veilleur/examples.md` pour des exemples de fiches générées.
 
 ---
 
@@ -139,6 +139,6 @@ Voir `agents/veilleur/examples.md` pour des exemples de fiches générées.
 
 ## Références
 
-- README : `agents/veilleur/README.md`
+- README : `Agents/veilleur/README.md`
 - Workflow : `.agent/workflows/process_veille.md`
-- Orchestration : `core/ORCHESTRATION.md`
+- Orchestration : `Configuration/ORCHESTRATION.md`
