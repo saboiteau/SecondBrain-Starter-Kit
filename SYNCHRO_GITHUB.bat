@@ -4,7 +4,7 @@ echo 🚀 SYNCHRONISATION GITHUB (STARTER KIT)
 echo ==========================================
 echo.
 
-cd /d "c:\Users\Sandrine BOITEAU\Documents\Mon Assistant IA V2\SecondBrain-Starter-Kit"
+cd /d "%~dp0"
 
 echo 1. Verification de l'etat...
 git status
